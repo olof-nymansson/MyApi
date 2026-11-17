@@ -28,6 +28,8 @@ var summaries = new[]
     "Scorching",
 };
 
+app.MapGet("/", () => "Welcome");
+
 app.MapGet(
         "/weatherforecast",
         () =>
